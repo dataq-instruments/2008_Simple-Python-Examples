@@ -21,3 +21,4 @@
     - From Windows Device Manager, find out the COM port of the device connected to, and modify the program accordingly<br/>
     ![alt text](https://www.dataq.com/resources/repository/matlab_devicemanager.png)
     
+7) Modify the sample with the correct COM port number 
