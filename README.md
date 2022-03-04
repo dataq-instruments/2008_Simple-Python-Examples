@@ -12,7 +12,7 @@
 
 3) Latest firmware is recommended https://github.com/dataq-instruments/2008_Firmware_Upgrade. 
 
-4) Understand the protocol, please refer to  https://www.dataq.com/resources/pdfs/misc/Dataq-Instruments-Protocol.pdf
+4) Understand the protocol, please refer to https://www.dataq.com/resources/pdfs/misc/di-2008%20protocol.pdf
 
 5) Turn DI-2008 into CDC mode: plug the device to USB port, if the LED already blinks Yellow, stop, you are already in CDC mode. If not, once the LED turns blinking Green, push the button 5 times, the LED should blink yellow to indicate CDC mode. If you need to exit CDC mode, repeate the same action and a green blinking LED will indicate LibUSB mode.
 
