@@ -3,7 +3,7 @@
 
 **Prerequisites**:
 
-1) Install Python (3.9 was what the program was tested on)
+1) Install Python (3.9 was what we used)
 
 2) Install Pyserial and Keyboard (from command prompt if you are using Window)
     - python -m pip install -U pyserial --user
