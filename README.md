@@ -22,6 +22,7 @@
     ![alt text](https://www.dataq.com/resources/repository/matlab_devicemanager.png)
     
 7) Modify the sample with the correct COM port number
-8) If you have trouble using Python, you can use any serial terminal program (such as TeraTerm) to connect to DI-2008 and type in the commands manually, as following
+8) The output from this example has two channels, the first one is a voltage input channel, the second one is a TC input channel, and output is formatted accordingly, in V and C
+9) If you have trouble using Python, you can use any serial terminal program (such as TeraTerm) to connect to DI-2008 and type in the commands manually, as following
 
    ![alt text](https://www.dataq.com/resources/images/cdc2008.png)
