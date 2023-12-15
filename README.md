@@ -21,4 +21,7 @@
     - From Windows Device Manager, find out the COM port of the device connected to, and modify the program accordingly<br/>
     ![alt text](https://www.dataq.com/resources/repository/matlab_devicemanager.png)
     
-7) Modify the sample with the correct COM port number 
+7) Modify the sample with the correct COM port number
+8) If you have trouble using Python, you can use any serial terminal program (such as TeraTerm) to connect to DI-2008 and type in the commands manually, as following
+
+   ![alt text](https://www.dataq.com/resources/repository/cdc2008.png)
