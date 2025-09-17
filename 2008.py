@@ -11,10 +11,13 @@ CONST_SER_PORT = 'COM25'   #get the com port from device manger and enter it her
 serDataq = serial.Serial(CONST_SER_PORT)
 
 serDataq.write(b"stop\r")        #stop in case device was left scanning
+time.sleep(1) 
 serDataq.write(b"eol 1\r") 
+time.sleep(1) 
 serDataq.write(b"encode 1\r")    #set up the device for ascii mode
+time.sleep(1) 
 serDataq.write(b"slist 0 0\r")   #scan list position 0 channel 0 thru channel 7
-time.sleep(0.1)  
+time.sleep(1)  
 serDataq.write(b"slist 1 4865\r")
 time.sleep(1)  
 serDataq.write(b"srate 60\r")
@@ -40,3 +43,4 @@ while True:
             pass
     except:
         pass
+
